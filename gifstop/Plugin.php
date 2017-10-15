@@ -63,7 +63,7 @@ $sj = new Typecho_Widget_Helper_Form_Element_Radio(
   
     public static function footer(){
         $options = Typecho_Widget::widget('Widget_Options')->plugin('gifstop'); 
-        echo '</script><script  src="'.Helper::options()->pluginUrl . '/gifstop/res/gifffer.min.js"></script>' . "\n"; 
+        echo '<script  src="'.Helper::options()->pluginUrl . '/gifstop/res/gifffer.min.js"></script>' . "\n"; 
         echo '<script>    window.onload = function() {
                 Gifffer();
             }</script>';
